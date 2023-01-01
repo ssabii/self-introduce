@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import styled from '@emotion/styled';
-import TextField, { TextFieldProps } from 'components/TextField';
-import Icon from 'components/Icon';
+import TextField, { TextFieldProps } from 'components/common/TextField';
+import Icon from 'components/common/Icon';
 import colors from 'styles/colors';
 
 export type SearchInputProps = TextFieldProps;

@@ -3,8 +3,7 @@ import styled from '@emotion/styled';
 import { WithRequired } from 'utils/WithRequired';
 import { css, keyframes } from '@emotion/react';
 import colors from 'styles/colors';
-
-export type InputSizes = 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge'
+import { InputSizes } from '../InputSizes';
 
 export type InputAlign = 'inherit' | 'left' | 'center' | 'right' | 'justify';
 

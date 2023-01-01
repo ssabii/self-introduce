@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 import { Global } from '@emotion/react';
 import { baseCSS } from './styles';
 
@@ -12,8 +13,10 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <Global styles={baseCSS} />
-    <App />
+    <BrowserRouter>
+      <Global styles={baseCSS} />
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

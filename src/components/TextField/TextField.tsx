@@ -107,13 +107,8 @@ const Wrapper = styled.div`
   justify-content: center; 
 `
 
-const wrapperStyle = css`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
 const authFill = keyframes``;
+
 const TextFieldBase = styled.input<{ align: InputAlign }>`
   outline: none;
   flex: 1;

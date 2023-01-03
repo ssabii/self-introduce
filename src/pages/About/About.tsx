@@ -10,13 +10,13 @@ function AboutMe() {
   return (
     <PageContainer>
       <Contents>
-        <InView delay={1000}>
+        <InView>
           <img alt="mbti" src={Mbti} width={400} height={500} />
         </InView>
-        <InView delay={2000}>
+        <InView delay={1000}>
           <img alt="강아지" src={Puppy} width={400} height={500} />
         </InView>
-        <InView delay={3000}>
+        <InView delay={2000}>
           <img alt="커피" src={Coffee} width={400} height={500} />
         </InView>
       </Contents>

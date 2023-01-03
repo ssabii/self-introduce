@@ -9,13 +9,13 @@ function Experience() {
   return (
     <PageContainer>
       <Contents>
-        <InView delay={1000}>
+        <InView>
           <img alt="유니티" src={UnityLogo} width={450} />
         </InView>
-        <InView delay={2000}>
+        <InView delay={1000}>
           <Emoji>➡</Emoji>
         </InView>
-        <InView delay={3000}>
+        <InView delay={2000}>
           <img alt="리액트" src={ReactLogo} width={450} />
         </InView>
       </Contents>

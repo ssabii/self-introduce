@@ -12,7 +12,7 @@ function PageContainer({ children }: PageContainerProps) {
 }
 
 const Container = styled.div`
-  padding: 40px;
+  padding: 0 40px 40px;
   min-height: 700px;
   display: flex;
   flex-direction: column;

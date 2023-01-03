@@ -1,10 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import type { TypedOptions } from 'typed.js';
-import { keyframes } from '@emotion/react';
 import styled from '@emotion/styled';
 import colors from 'styles/colors';
 import PageContainer from 'components/common/PageContainer';
+import { Player } from '@lottiefiles/react-lottie-player';
+import hello from './assets/hello.json'
 
 function Main() {
   const el = useRef<HTMLSpanElement>(null);
@@ -23,7 +24,15 @@ function Main() {
 
   return (
     <PageContainer>
-      <Emoji>✋🏻</Emoji>
+      <Player
+        autoplay
+        loop
+        src={hello}
+        style={{ width: '1000px', height: '400px' }}
+        speed={1}
+
+      >
+      </Player>
       <TextWrapper>
         <Text ref={el} />
       </TextWrapper>
@@ -41,17 +50,6 @@ const options: TypedOptions = {
   backDelay: 1000,
 };
 
-const swing = keyframes`
-  0% { transform: rotate(15deg); }
-  100% { transform: rotate(-15deg); }
-`
-
-const Emoji = styled.div`
-  font-size: 150px;
-  transform-origin: center;
-  animation: ${swing} ease-in-out 1s infinite alternate;
-`
-
 const TextWrapper = styled.div`
   display: flex;
   align-items: center;
@@ -61,9 +59,8 @@ const TextWrapper = styled.div`
     font-size: 100px;
     font-weight: 500;
   }
-`
+`;
 
-const Text = styled.span`
-`
+const Text = styled.span``;
 
 export default Main;

@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react'
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styled from '@emotion/styled'
 import colors from 'styles/colors';
 import { css } from '@emotion/react';
@@ -30,7 +30,7 @@ function ServiceNav() {
             onMouseLeave={handleMouseLeave}
           >
             <Anchor
-              href={href}
+              to={href}
               active={isActive(href)}
             >
               {name}
@@ -82,7 +82,7 @@ const Service = styled.li`
   padding: 0;
 `;
 
-const Anchor = styled.a<{ active: boolean }>`
+const Anchor = styled(Link) <{ active: boolean }>`
   color: ${colors.gray[800]};
   text-decoration: none;
   cursor: pointer;

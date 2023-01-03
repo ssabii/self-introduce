@@ -1,9 +1,11 @@
 import React, { useCallback, useState } from 'react'
+import { useLocation } from 'react-router-dom';
 import styled from '@emotion/styled'
 import colors from 'styles/colors';
 import { css } from '@emotion/react';
 
 function ServiceNav() {
+  const { pathname } = useLocation();
   const [active, setActive] = useState('');
 
   const handleMouseEnter = useCallback((href: string) => () => {
@@ -13,6 +15,8 @@ function ServiceNav() {
   const handleMouseLeave = useCallback(() => {
     setActive('');
   }, []);
+
+  const isActive = (href: string) => href === active || href === pathname;
 
   return (
     <nav>
@@ -27,13 +31,12 @@ function ServiceNav() {
           >
             <Anchor
               href={href}
-              active={href === active}
+              active={isActive(href)}
             >
               {name}
             </Anchor>
-
             <ActiveBarWrapper>
-              <ActiveBar active={href === active} />
+              <ActiveBar active={isActive(href)} />
             </ActiveBarWrapper>
           </Service>
         ))}

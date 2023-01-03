@@ -1,7 +1,7 @@
-import styled from '@emotion/styled';
-import PageContainer from 'components/common/PageContainer';
 import React from 'react'
+import styled from '@emotion/styled';
 import colors from 'styles/colors';
+import PageContainer from 'components/common/PageContainer';
 
 function Info() {
   return (
@@ -55,7 +55,7 @@ const Th = styled.th<{ width?: string }>`
   background-color: ${colors.gray[100]};
   border-right: 1px solid ${colors.gray[300]};
   border-bottom: 1px solid ${colors.gray[300]};
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 400;
   color: ${colors.gray[800]};
   text-align: right;
@@ -67,7 +67,7 @@ const Td = styled.td`
   padding: 24px; 
   border-right: 1px solid ${colors.gray[300]};
   border-bottom: 1px solid ${colors.gray[300]};
-  font-size: 36px;
+  font-size: 28px;
   font-weight: bold;
   text-align: left;
 `;

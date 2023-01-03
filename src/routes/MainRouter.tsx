@@ -5,6 +5,7 @@ import Main from 'pages/Main';
 import Intro from 'pages/Intro';
 import Experience from 'pages/Experience';
 import AboutMe from 'pages/About';
+import Outro from 'pages/Outro';
 
 function MainRouter() {
   return (
@@ -14,6 +15,7 @@ function MainRouter() {
         <Route path="intro" element={<Intro />} />
         <Route path="experience" element={<Experience />} />
         <Route path="about" element={<AboutMe />} />
+        <Route path="outro" element={<Outro />} />
       </Route>
     </Routes>
   )

@@ -28,7 +28,7 @@ function AuthenticateSection() {
         placement='bottom'
         content={
           <Box>
-            하기 싫다~
+            부담된다
           </Box>
         }
       >

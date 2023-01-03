@@ -47,8 +47,8 @@ function ServiceNav() {
 
 const serviceLinks = [
   {
-    name: 'Intro',
-    href: '/intro',
+    name: 'Info',
+    href: '/info',
   },
   {
     name: 'Experience',

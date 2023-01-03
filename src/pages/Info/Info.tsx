@@ -3,7 +3,7 @@ import PageContainer from 'components/common/PageContainer';
 import React from 'react'
 import colors from 'styles/colors';
 
-function Intro() {
+function Info() {
   return (
     <PageContainer>
       <Table>
@@ -72,4 +72,4 @@ const Td = styled.td`
   text-align: left;
 `;
 
-export default Intro;
+export default Info;

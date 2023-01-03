@@ -2,8 +2,8 @@ import React from 'react'
 import styled from '@emotion/styled';
 import Button from 'components/common/Button';
 import Avatar from 'components/common/Avatar/Avatar';
-import Joseph from 'components/assets/joseph.jpg';
 import Popover from 'components/common/Popover';
+import Joseph from 'components/assets/joseph.jpg';
 
 function AuthenticateSection() {
   return (

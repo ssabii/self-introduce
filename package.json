@@ -2,7 +2,7 @@
   "name": "self-introduce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ssabii.github.io/self-introduce",
+  "homepage": "https://ssabii.github.io/self-introduce/index.html",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",

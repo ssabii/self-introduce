@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/self-introduce/index.html/static/css/main.e6c13ad2.css",
-    "main.js": "/self-introduce/index.html/static/js/main.af238415.js",
-    "static/js/787.b3d441c3.chunk.js": "/self-introduce/index.html/static/js/787.b3d441c3.chunk.js",
-    "static/media/puppy.jpg": "/self-introduce/index.html/static/media/puppy.2b0f7830cc8a34e6a3d2.jpg",
-    "static/media/mbti.png": "/self-introduce/index.html/static/media/mbti.1fb39705b67948451794.png",
-    "static/media/coffee.jpg": "/self-introduce/index.html/static/media/coffee.58ef5f680270d5b66490.jpg",
-    "static/media/joseph.jpg": "/self-introduce/index.html/static/media/joseph.fd78eb590a4cb961d0be.jpg",
-    "static/media/react.png": "/self-introduce/index.html/static/media/react.cfee98e8a372d8a0f6b4.png",
-    "index.html": "/self-introduce/index.html/index.html",
-    "main.e6c13ad2.css.map": "/self-introduce/index.html/static/css/main.e6c13ad2.css.map",
-    "main.af238415.js.map": "/self-introduce/index.html/static/js/main.af238415.js.map",
-    "787.b3d441c3.chunk.js.map": "/self-introduce/index.html/static/js/787.b3d441c3.chunk.js.map"
+    "main.css": "/ssabii.github.io/self-introduce/static/css/main.e6c13ad2.css",
+    "main.js": "/ssabii.github.io/self-introduce/static/js/main.b5fc2c27.js",
+    "static/js/787.b3d441c3.chunk.js": "/ssabii.github.io/self-introduce/static/js/787.b3d441c3.chunk.js",
+    "static/media/puppy.jpg": "/ssabii.github.io/self-introduce/static/media/puppy.2b0f7830cc8a34e6a3d2.jpg",
+    "static/media/mbti.png": "/ssabii.github.io/self-introduce/static/media/mbti.1fb39705b67948451794.png",
+    "static/media/coffee.jpg": "/ssabii.github.io/self-introduce/static/media/coffee.58ef5f680270d5b66490.jpg",
+    "static/media/joseph.jpg": "/ssabii.github.io/self-introduce/static/media/joseph.fd78eb590a4cb961d0be.jpg",
+    "static/media/react.png": "/ssabii.github.io/self-introduce/static/media/react.cfee98e8a372d8a0f6b4.png",
+    "index.html": "/ssabii.github.io/self-introduce/index.html",
+    "main.e6c13ad2.css.map": "/ssabii.github.io/self-introduce/static/css/main.e6c13ad2.css.map",
+    "main.b5fc2c27.js.map": "/ssabii.github.io/self-introduce/static/js/main.b5fc2c27.js.map",
+    "787.b3d441c3.chunk.js.map": "/ssabii.github.io/self-introduce/static/js/787.b3d441c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.af238415.js"
+    "static/js/main.b5fc2c27.js"
   ]
 }

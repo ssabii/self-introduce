@@ -6,11 +6,12 @@ import Info from 'pages/Info';
 import Experience from 'pages/Experience';
 import AboutMe from 'pages/About';
 import Outro from 'pages/Outro';
+import { routePrefix } from './routePrefix';
 
 function MainRouter() {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path={routePrefix} element={<Layout />}>
         <Route index element={<Main />} />
         <Route path="info" element={<Info />} />
         <Route path="experience" element={<Experience />} />

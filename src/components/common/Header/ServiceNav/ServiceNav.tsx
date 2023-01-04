@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import styled from '@emotion/styled'
 import colors from 'styles/colors';
 import { css } from '@emotion/react';
+import { routePrefix } from 'routes/routePrefix';
 
 function ServiceNav() {
   const { pathname } = useLocation();
@@ -48,19 +49,19 @@ function ServiceNav() {
 const serviceLinks = [
   {
     name: 'Info',
-    href: '/info',
+    href: `${routePrefix}/info`,
   },
   {
     name: 'Experience',
-    href: '/experience',
+    href: `${routePrefix}/experience`,
   },
   {
     name: 'About Me',
-    href: '/about',
+    href: `${routePrefix}/about`,
   },
   {
     name: 'Outro',
-    href: '/outro',
+    href: `${routePrefix}/outro`,
   },
 ]
 

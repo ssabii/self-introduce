@@ -1,17 +1,15 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import Layout from 'components/layouts/Layout'
-import Main from 'pages/Main';
-import Info from 'pages/Info';
-import Experience from 'pages/Experience';
+import Layout from 'components/layouts/Layout';
 import AboutMe from 'pages/About';
+import Experience from 'pages/Experience';
+import Info from 'pages/Info';
+import Main from 'pages/Main';
 import Outro from 'pages/Outro';
-import { routePrefix } from './routePrefix';
+import { Route, Routes } from 'react-router-dom';
 
 function MainRouter() {
   return (
-    <Routes>
-      <Route path={routePrefix} element={<Layout />}>
+    <Routes >
+      <Route element={<Layout />}>
         <Route index element={<Main />} />
         <Route path="info" element={<Info />} />
         <Route path="experience" element={<Experience />} />

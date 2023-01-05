@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Global styles={baseCSS} />
     <App />
   </BrowserRouter>
